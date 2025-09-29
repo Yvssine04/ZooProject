@@ -12,11 +12,7 @@ public class ZooManagement {
     public static void main(String[] args){
 
 
-        Animal lion =new Animal("felidae", "simba",5 ,true);
-        Animal elephant = new Animal("Elephantidae", "Éléphant", 10, true);
-        Animal crocodile = new Animal("Crocodylidae", "Crocodile", 7, false);
-
-        Zoo myZoo = new Zoo("Safari park","tunis",25);
+        Zoo myZoo = new Zoo("Safari park","tunis");
 
         myZoo.displayZoo();
 
@@ -24,10 +20,6 @@ public class ZooManagement {
 
         System.out.println(myZoo);
         System.out.println(myZoo.toString());
-        // Ajout des animaux au tableau du zoo
-        myZoo.animals[0] = lion;
-        myZoo.animals[1] = elephant;
-        myZoo.animals[2] = crocodile;
 
         /*
         Animal lion = new Animal();
